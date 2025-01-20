@@ -10,7 +10,7 @@ This project is made in the context of the second year option called "Maker" at 
 
 The idea is to build a drone from almost non-existent knowledge in this field ( and so to learn how it's done ). The drone will be a quadrotor and its theme will be the spectrum of the Destiny video game series (see photo below). The ultimate aim is to turn it into a companion that will follow its ‘master’ wherever he goes.
 
-![image](https://github.com/user-attachments/assets/2c8c20e0-56f3-4f3e-a992-1068808213e8)
+<img src="https://github.com/user-attachments/assets/2c8c20e0-56f3-4f3e-a992-1068808213e8" width="100" height="200" />
 
 ## -Project milestones
 
