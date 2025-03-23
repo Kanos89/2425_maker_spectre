@@ -32,7 +32,7 @@ The idea is to build a drone from almost non-existent knowledge in this field ( 
   -> The design shouldn't disrupt the functionning
 
   
-### ( -Implement autonomous navigation: Program the drone to follow a "master" )
+### For later work  -Implement autonomous navigation: Program the drone to follow a "master" 
   -> Compare and decide which technology use to implement this function by comparing many factors ( need for computing power, ease of implementation, precision )
 
 ## Tools and Materials
@@ -45,10 +45,8 @@ The idea is to build a drone from almost non-existent knowledge in this field ( 
   
   -> we will design our PCB on KiCAD
   
-  Programming tools :
-  -> C++/MATLAB ? to implement the code in the controller
-  
-  -> ( dev a mobile interface to control the drone ) 
+  Flight control software : 
+  -> we will use betaflights solutions
   
 #### Hardware :
   3D printer for the frame ( PCB, motors and battery support + design edges )
@@ -57,62 +55,31 @@ The idea is to build a drone from almost non-existent knowledge in this field ( 
 
 ### Materials :
 #### Actuator
-Motors and propellers suitable for quadrotor drones 
+Brushless motors and propellers suitable for quadrotor drones 
 ### Control
 Flight controller
-ESCs (Electronic Speed Controllers)
+ESC (Electronic Speed Controllers)
 
-  -> Designing one is an objective, buying one if too difficult
+  -> Designing one can be an objective, buying one if too difficult
   
   ->MOSFET + Driver + microcontroller
   
 ### Energy
-Battery pack and charger
+Use of Lipo 2S for the drone
 
 ### Sensors
-IMU Complete Accelerometer + Gyroscope (+ Magnetometer)
-Barometer/Ultrasonic sensor (also used if obstacle avoidance) or lidar for altitude
+IMU = Accelerometer + Gyroscope
+Barometer for altitude
+(for autonomous part : bluetooth antena [find target relative position] + tof [obstacle avoidance])
 
 ### Communication
-Bluetooth transmitter ( can also use RSSI for proximity with the phone controlling the drone)
+Radio transmitter
+(for autonomous part : bluetooth)
 
 ### Frame
 Lightweight materials for the body
--> PLA
+-> PLA find balance between infill and weight
 
 -> Fabrics
 
--> Thin wood sheets
-
-## Project Documentation
-
-### Progress Logs
-Regular updates documenting each phase of the project will be maintained, covering :
-
-1 Research and component selection
-
-2 Design and prototyping
-
-3 Assembly and testing
-
-4 Iterations and improvements
-
-### Challenges and Solutions
-A section highlighting key challenges encountered and how they were addressed will be included in the final documentation.
-
-## Retro planning 
-
-| **Week**           | **Period**       | **Main Objectives**                                                                                     | **Deliverables / Milestones**                                                                          |
-|---------------------|------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Week 1**         | 20/01 - 26/01    | - Analyze requirements and plan the project<br>- Learn/review drone basics<br>- Research main components | - Preliminary component list<br>- Functional diagram of the drone<br>- Initial requirements document |
-| **Week 2**         | 27/01 - 02/02    | - Select motors and ESCs<br>- Study propeller designs and basic calculations (autonomy, weight, thrust)  | - Final motor selection<br>- Preliminary calculations for propeller design                           |
-| **Week 3**         | 03/02 - 09/02    | - Research custom ESC design<br>- Study MOSFETs, drivers, and suitable microcontrollers                  | - ESC specifications (initial component schematic)                                                   |
-| **Week 4**         | 10/02 - 16/02    | - Finalize the list of required components<br>- Order components                                         | - All components ordered<br>- Procurement plan                                                       |
-| **Week 5**         | 17/02 - 23/02    | - Model the frame using Onshape<br>- Start 3D prototyping                                               | - Preliminary 3D design of the frame<br>- First prints for testing                                   |
-| **Week 6**         | 24/02 - 01/03    | - Deep dive into ESC design: detailed electronic schematic<br>- Start PCB design on KiCAD               | - KiCAD schematic for ESC<br>- Theoretical validation of the circuit                                 |
-| **Week 7**         | 02/03 - 08/03    | - Mechanical assembly of the frame and motor mounting<br>- Finalize PCB for ESC                         | - Assembled frame with motors mounted<br>- PCB files ready for fabrication                           |
-| **Week 8**         | 09/03 - 15/03    | - Solder and assemble the ESC<br>- Start unit testing: ESC, motors, batteries                          | - Functional ESC tested with a motor<br>- Documentation of unit tests                                |
-| **Week 9**         | 16/03 - 22/03    | - Program basic controls (PWM, ESC)<br>- Begin developing the mobile app for Bluetooth control          | - Drone capable of responding to basic PWM commands<br>- Prototype of the mobile app interface       |
-| **Week 10**        | 23/03 - 29/03    | - Integrate Bluetooth communication with the drone<br>- Test and refine the mobile app                 | - Fully operational Bluetooth control via mobile app<br>- App tested with all drone functionalities  |
-| **Week 11**        | 30/03 - 04/04    | - Final optimization (stability, autonomy)<br>- Prepare for exhibition<br>- Finalize documentation      | - Fully functional drone ready for exhibition<br>- Final README with complete tutorial               |
-
+-> Thin wood sheets ?
