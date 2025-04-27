@@ -80,12 +80,16 @@ Radio transmitter
 Lightweight materials for the body
 -> PLA find balance between infill and weight
 
--> Fabrics
-
--> Thin wood sheets ?
 ![image](https://github.com/user-attachments/assets/ef3a1a53-c0b4-4ff5-8ef1-536e2d8c0f1a)
 ![image](https://github.com/user-attachments/assets/1228ebd2-2619-4e28-aecd-a9000c0b7683)
 ![image](https://github.com/user-attachments/assets/604373c1-4036-4d1f-8d70-7143f6e51cdf)
+
+![image](https://github.com/user-attachments/assets/b0779466-b318-4b8b-896d-5f2980331e10)
+![image](https://github.com/user-attachments/assets/dd088166-9f5d-4084-9ef7-fe2c30449972)
+![image](https://github.com/user-attachments/assets/504cc3e9-6351-450c-9d58-85a2c4e19c57)
+
+
+
 
 
 
